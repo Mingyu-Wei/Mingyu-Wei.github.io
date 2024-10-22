@@ -1,0 +1,72 @@
+/* Styling the body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Styling the header */
+.header {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Styling for About section */
+#about {
+  padding: 20px;
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+/* Styling for Projects section */
+#projects {
+  padding: 20px;
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 8px;
+}
+
+/* Styling the footer */
+.footer {
+  background-color: #4caf50;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Anchor tag link styling */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+/* Image styling */
+.image-class {
+  display: block;
+  margin: 20px auto;
+  max-width: 200px;
+}
+
+/* Box model properties */
+#about,
+#projects {
+  border: 2px solid #ddd;
+  padding: 15px;
+}
+
+.section-title {
+  color: #4caf50;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
